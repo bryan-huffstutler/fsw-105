@@ -57,3 +57,25 @@ if ((1 <= 2) && (2 == 4)){
 } else {
   console.log("no");
 }
+
+//Gold
+5 > 3 ? $Result = "is greater than" : $Result = "not greater than";
+console.log($Result);
+
+cat = 3 ? $Result = "it's three" : $Result = "it's not three";
+console.log($Result);
+
+cat2 != dog2 ? $Result = "not the same" : "Same";
+console.log($Result);
+
+person.age < 18 ? $Result = "Underage" : "Old Enough";
+console.log($Result);
+
+person.name.startsWith("B") ? $Result = "You may enter" : $Result = "You may not enter";
+console.log($Result);
+
+1 === "1" ? $Result = "strict" : $Result = "Loose";
+console.log($Result);
+
+(1 <= 2 && 2==4) ? $Result = "yes" : $Result = "no";
+console.log($Result);
