@@ -22,7 +22,26 @@ var peopleWhoWantToSeeMadMaxFuryRoad = [
   }
 ]
 
+//Number 1
 for (var i = 0; i < peopleWhoWantToSeeMadMaxFuryRoad.length; i++){
+  if (peopleWhoWantToSeeMadMaxFuryRoad[i].age > 18) {
+    console.log("Old enough");
+  } else {
+    console.log("Not old enough");
+  }
+}
+
+//Number 2
+for (var i = 0; i < peopleWhoWantToSeeMadMaxFuryRoad.length; i++){
+  if (peopleWhoWantToSeeMadMaxFuryRoad[i].age > 18){
+    console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].name + " is old enough to see Mad Max Fury Road");
+  } else {
+    console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].name + " is not old enough to see Mad Max Fury Road");
+  }
+}
+
+
+ for (var i = 0; i < peopleWhoWantToSeeMadMaxFuryRoad.length; i++){
   //check if over 18
   if (peopleWhoWantToSeeMadMaxFuryRoad[i].age > 18) {
     //check if female or not
@@ -42,10 +61,9 @@ for (var i = 0; i < peopleWhoWantToSeeMadMaxFuryRoad.length; i++){
   }
 }
 
-
 var count = 0;
 //loop to determine which numbers between 0-100 are even or odd
-for (var i = 0; i < 100; i++){
+for (var i = 0; i < 101; i++){
   if (count % 2 == 0){
     console.log(count + " is even.")
     count ++;
@@ -70,9 +88,9 @@ function adding(){
 //function if statement to determine if light is on or off
 function isOnOrOff(){
   if (lightCount % 2 == 0){
-    console.log("Lightbulb is on.")
-  } else {
     console.log("Lightbulb is off.")
+  } else {
+    console.log("Lightbulb is on.")
   }
 }
 //pushing numbers into the array
