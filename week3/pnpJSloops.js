@@ -40,7 +40,7 @@ for (var i = 0; i < peopleWhoWantToSeeMadMaxFuryRoad.length; i++){
   }
 }
 
-
+//Number 3
  for (var i = 0; i < peopleWhoWantToSeeMadMaxFuryRoad.length; i++){
   //check if over 18
   if (peopleWhoWantToSeeMadMaxFuryRoad[i].age > 18) {
@@ -61,6 +61,7 @@ for (var i = 0; i < peopleWhoWantToSeeMadMaxFuryRoad.length; i++){
   }
 }
 
+//Number 4
 var count = 0;
 //loop to determine which numbers between 0-100 are even or odd
 for (var i = 0; i < 101; i++){
@@ -73,6 +74,7 @@ for (var i = 0; i < 101; i++){
   }
 }
 
+//Extra Credit
 //lightbulb setup
 var lightCount = 0;
 var lightArray = [];
