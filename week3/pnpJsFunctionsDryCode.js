@@ -41,14 +41,14 @@ console.log(strChecker("Hello"));
 
 var fibo = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144];
 
+//This Fibonacci code does not work, I feel like I'm on the right path but something's not quite right..
 function fiboCounter(x){
   var h = fibo.slice(0, x);
-  var sum = 0;
-  for (i = 0; i < h.length; i++){
-      sum + h[i];
+  for (var i = 0; i < h.length; i++){
+      var sum = 0;
+      sum = sum + h[i];
     }
     console.log(sum);
 } 
-
 
 fiboCounter(7);
