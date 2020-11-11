@@ -49,6 +49,6 @@ function fiboCounter(x){
       sum = sum + h[i];
     }
     console.log(sum);
-} 
+}
 
 fiboCounter(7);
