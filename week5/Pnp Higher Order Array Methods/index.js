@@ -145,8 +145,8 @@ console.log("==============================");
   function shoppingSpree(arr){
     return arr.reduce(function(total, i){
       
-     return i.price += total;
-    }),0;
+     return total + i.price;
+    }, 0);
   }
   var wishlist = [
     { title: "Tesla Model S", price: 90000 },
