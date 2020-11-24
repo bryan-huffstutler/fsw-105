@@ -32,4 +32,4 @@ addEmployeeToAnArray(bobSmith);
 addEmployeeToAnArray(johnDoe);
 addEmployeeToAnArray(janeDoe);
 */
-console.log(employees);
+//console.log(employees);
