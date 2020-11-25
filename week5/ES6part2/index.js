@@ -52,7 +52,7 @@ const doMathSum = (a, b) => a + b;
 console.log(doMathSum(2, 10))
 console.log("==========")
 //Step 5)
-const printString = (firstName, lastName, age) => {
+const printString = (firstName = John, lastName = Doe, age = 100) => {
   
   console.log("Hi " + firstName + " " + lastName + ", how does it feel to be " + age + ".")
 }
@@ -75,4 +75,4 @@ console.log("==========")
 const step8 = (loc, name) => {
   console.log(`Hi ${name}!\nWelcome to ${loc}.\nI hope you enjoy your stay. Please ask the president of ${loc} if you need anything. `)
 }
-console.log(step8(`Hawaii`, `Janice`))
+//console.log(step8(`Hawaii`, `Janice`))
