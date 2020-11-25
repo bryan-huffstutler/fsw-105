@@ -75,4 +75,4 @@ console.log("==========")
 const step8 = (loc, name) => {
   console.log(`Hi ${name}!\nWelcome to ${loc}.\nI hope you enjoy your stay. Please ask the president of ${loc} if you need anything. `)
 }
-//console.log(step8(`Hawaii`, `Janice`))
+step8(`Hawaii`, `Janice`);
