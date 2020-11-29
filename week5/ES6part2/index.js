@@ -50,16 +50,19 @@ console.log("==========")
 //Step 4)
 const doMathSum = (a, b) => a + b;
 console.log(doMathSum(2, 10))
+
+let produceProduct = (a, b) => a * b;
+console.log(produceProduct(2, 10));
 console.log("==========")
 //Step 5)
 const printString = (firstName = John, lastName = Doe, age = 100) => {
   
   console.log("Hi " + firstName + " " + lastName + ", how does it feel to be " + age + ".")
 }
-printString("Jane", "Doe", 100)
+printString("Kat", "Stark", 40)
 console.log("==========")
 //Step 6)
-printString(`Jane`, `Doe`, 100)
+printString(`Kat`, `Stark`, 40)
 console.log("==========")
 //Step 7)
 const animals = [
